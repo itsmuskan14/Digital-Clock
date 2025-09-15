@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0a0a0a;
+  color: #C7CCDB;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(assets/image1.webp);
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clock {
+  display: flex;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 20px 40px;
+  border: 3px solid #C7CCDB;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #C7CCDB;
+}
